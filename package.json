@@ -1,0 +1,30 @@
+{
+    "version": "1.0.0",
+    "name": "com.hughisaacs2.cordova.plugins.multiwindowplugin",
+    "cordova_name": "SamsungMultiWindowPlugin",
+    "description": "Cordova Samsung MultiWindow Plugin",
+    "license": "MIT",
+    "platforms": [
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HughIsaacs2/Cordova-Samsung-Multi-Window-Plugin.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android"
+    ],
+  "author": "Hugh Isaacs II",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HughIsaacs2/Cordova-Samsung-Multi-Window-Plugin/issues"
+  },
+  "homepage": "https://github.com/HughIsaacs2/Cordova-Samsung-Multi-Window-Plugin"
+}

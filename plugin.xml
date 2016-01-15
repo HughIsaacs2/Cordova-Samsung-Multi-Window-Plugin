@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.hughisaacs2.cordova.plugins.multiwindowplugin"
+    version="1.0.0">
+	
+	<name>Samsung MultiWindow Plugin</name>
+	<description>Cordova Samsung MultiWindow Plugin</description>
+    <license>MIT</license>
+	
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
+
+  <platform name="android">
+
+  	<config-file target="AndroidManifest.xml" parent="/manifest/application/">
+        <uses-library required="false" name="com.sec.android.app.multiwindow"> </uses-library>
+	</config-file>
+	<config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
+    </config-file>
+	<config-file target="AndroidManifest.xml" parent="/manifest/application/activity/intent-filter">
+        <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+    </config-file>
+  </platform>
+  
+</plugin>
